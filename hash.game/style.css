@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+}
+header {
+    position: absolute;
+    top: 0;
+  }
+  
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #620b82, #1d1b1b);
+}
+
+main,h4,h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    color: #fffffff7;
+}
+
+
+.velha-inputs {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    grid-template-columns: repeat(3, auto);
+}
+
+.velha-inputs input:nth-child(1),
+.velha-inputs input:nth-child(2),
+.velha-inputs input:nth-child(3) {
+    border-top: none;
+}
+
+.velha-inputs input:nth-child(1),
+.velha-inputs input:nth-child(4),
+.velha-inputs input:nth-child(7) {
+    border-left: none;
+}
+
+.velha-inputs input:nth-child(7),
+.velha-inputs input:nth-child(8),
+.velha-inputs input:nth-child(9) {
+    border-bottom: none;
+}
+
+.velha-inputs input:nth-child(3),
+.velha-inputs input:nth-child(6),
+.velha-inputs input:nth-child(9) {
+    border-right: none;
+}
+
+.velha-inputs input {
+    width: 9rem;
+    height: 7.8rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: #000000;
+    font-size: 6.3rem;
+    text-align: center;
+    caret-color: transparent;
+    text-transform: uppercase;
+}
+
+.resbutton,
+#reset {
+    width: 10rem;
+    height: 6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #620b82;
+    border-radius: 1.5rem;
+    font-size: 2.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.resbuton:hover,
+#reset:hover {
+    transform: scale(0.98);
+    transition: all 0.2s ease-in-out;
+}
+
+#i1:hover,
+#i2:hover,
+#i3:hover,
+#i4:hover,
+#i5:hover,
+#i6:hover,
+#i7:hover,
+#i8:hover,
+#i9:hover {
+    box-shadow: inset 0 0 9px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+}
